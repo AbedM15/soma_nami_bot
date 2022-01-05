@@ -1,0 +1,36 @@
+{"intents":[
+    {"tag":"greeting", 
+    "patterns":["Hi","How are you", "Hello", "hey"],
+    "responses":["Hello, how are you?", "Hello how can I help?"]
+},
+    {"tag":"goodbye",
+    "patterns":["goodbye", "bye", "see you later"],
+    "responses":["See you later, hope you've been informed", "Bye, Stay safe", "Get vaxxed and stay masked."]
+    },
+    {"tag":"branches",
+    "patterns":["What branches are there?", "Where are the branches located?"],
+    "responses":["We have branches at Buruburu, Ngong Rd, Community Area, Kibera and Thika"]
+
+    },
+    {"tag":"process_info",
+        "patterns":["What Is the process like?","What is your procedure?"],
+        "responses":["In all branches, you pay Kshs.20 on entry and redeem a ticket for that date"]
+    },
+    {"tag":"restrictions",
+        "patterns":["what are your rules and restrictions?", "what are your prohibitions?"],
+        "responses":["No entry with zipped bags,\n personal textbooks must be stamped on entry \n  Maintain silence at all times \n STAY MASKED AT ALL TIMES WITHIN THE LIBRARY!"]
+    },
+    {"tag":"borrow",
+    "patterns":["How do I go about borrowing a book?", "What can I do to borrow a book?"],
+    "responses":["1. Be registered as a member. \n2. Get an electronic library identification card. \n3. Pick a book to borrow and have at it for a maximum of two weeks after which the period can be renewed"]
+    },
+    {"tag":"short_loan",
+        "patterns":["what about a short loan?"],
+        "responses":["short loan materials shall be loaned out for a maximum of three days non-renewable"]
+    },
+    {"tag":"ntk_buruburu",
+        "patterns":["Anything I need to know?"],
+        "responses":["There is WiFi at every branch and the password should be visible on the staircase and public spaces"]    
+    }
+
+]}
