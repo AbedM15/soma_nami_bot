@@ -7,7 +7,7 @@ from nltk_utils import bag_of_words, tokenize
 
 device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('intents.json', 'r') as f:
+with open('library.json', 'r') as f:
     intents=json.load(f)
 
 FILE="data.pth"
@@ -24,7 +24,7 @@ model = NeuralNet(input_size, hidden_size, output_size)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name="Vaksina"
+bot_name="Soma_nami"
 def get_response(msg):
     sentence=tokenize(msg)
     x=bag_of_words(sentence, all_words)
